@@ -11,11 +11,12 @@ from . import *
 
 __MODULE__ = "adzan"
 __HELP__ = f"""
-✘ Bantuan Untuk Adzan
+🕌 Bantuan Untuk Adzan 🕌
 
-๏ Perintah: <code>{cmd}adzan</code> [nama kota]
-◉ Penjelasan: Untuk mengetahui jadwal adzan di lokasi anda.
+➜ Perintah: <code>{{cmd}}adzan</code> [nama kota]
+    Penjelasan: Untuk mengetahui jadwal adzan di lokasi Anda.
 """
+
 
 
 @bots.on_message(filters.me & filters.command("adzan", cmd))

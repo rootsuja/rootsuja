@@ -293,11 +293,11 @@ async def msg_quotly_cmd(client: Client, message):
 
 __MODULE__ = "quote"
 __HELP__ = f"""
-✘ Bantuan Untuk Quote
+✘ Bantuan Untuk Quote 📜
 
-๏ Perintah: <code>{cmd}q</code> [balas pesan]
-◉ Penjelasan: Untuk quote.
+➜ Perintah: <code>{{cmd}}q</code> [balas pesan] 🗨️
+    Penjelasan: Untuk membuat kutipan dari pesan yang dibalas.
 
-๏ Perintah: <code>{cmd}q</code> [balas pesan][angka]
-◉ Penjelasan: Ini akan membuat beberapan pesan menjadi quote.
+➜ Perintah: <code>{{cmd}}q</code> [balas pesan][angka] 🗨️
+    Penjelasan: Ini akan membuat beberapa pesan menjadi kutipan.
 """

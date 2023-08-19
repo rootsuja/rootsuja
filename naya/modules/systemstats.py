@@ -13,20 +13,21 @@ from . import *
 
 __MODULE__ = "system"
 __HELP__ = f"""
-✘ Bantuan Untuk System
+✘ Bantuan Untuk System 🖥️
 
-๏ Perintah: <code>{cmd}spc</code>
-◉ Penjelasan: Melihat statistik sistem.
+➜ Perintah: <code>{{cmd}}spc</code> 📊
+    Penjelasan: Melihat statistik sistem.
 
-๏ Perintah: <code>{cmd}restart</code>
-◉ Penjelasan: Untuk merestart userbot.
+➜ Perintah: <code>{{cmd}}restart</code> 🔄
+    Penjelasan: Untuk merestart userbot.
 
-๏ Perintah: <code>{cmd}shutdown</code>
-◉ Penjelasan: Untuk mematikan userbot.
+➜ Perintah: <code>{{cmd}}shutdown</code> 🛑
+    Penjelasan: Untuk mematikan userbot.
 
-๏ Perintah: <code>{cmd}logs</code>
-◉ Penjelasan: Untuk melihat logs userbot.
+➜ Perintah: <code>{{cmd}}logs</code> 📜
+    Penjelasan: Untuk melihat logs userbot.
 """
+
 
 
 async def get_readable_time(seconds: int) -> str:

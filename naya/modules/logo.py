@@ -14,11 +14,12 @@ from naya import *
 
 __MODULE__ = "logo"
 __HELP__ = f"""
-✘ Bantuan Untuk Logo
+🖋️ Bantuan Untuk Logo 🖋️
 
-๏ Perintah: <code>{cmd}logo</code> [text]
-◉ Penjelasan: Untuk membuat sebuah logo dengan background random .
+➜ Perintah: <code>{{cmd}}logo</code> [text]
+    Penjelasan: Membuat logo dengan latar belakang acak.
 """
+
 
 
 @bots.on_message(filters.command(["logo"], cmd) & filters.me)

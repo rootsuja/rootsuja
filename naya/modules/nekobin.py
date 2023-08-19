@@ -109,8 +109,8 @@ async def paste_dis_text(_, message):
 
 __MODULE__ = "paste"
 __HELP__ = f"""
-✘ Bantuan Untuk Pastebin
+📋 Bantuan Untuk Pastebin 📋
 
-๏ Perintah: <code>{cmd}paste</code>
-◉ Penjelasan: Untuk mengupload teks ke nekobin.
+➜ Perintah: <code>{{cmd}}paste</code>
+    Penjelasan: Mengunggah teks ke layanan nekobin.
 """

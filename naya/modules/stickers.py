@@ -436,14 +436,15 @@ async def stick2png(client, message):
 
 __MODULE__ = "stickers"
 __HELP__ = f"""
-✘ Bantuan Untuk Stikers
+✘ Bantuan Untuk Stikers 🖼️
 
-๏ Perintah: <code>{cmd}kang</code> [balas media]
-◉ Penjelasan: Untuk membuat stikers pack anda.
+➜ Perintah: <code>{{cmd}}kang</code> [balas media] 🦘
+    Penjelasan: Untuk membuat stiker dari media yang dibalas.
 
-๏ Perintah: <code>{cmd}packinfo</code> [balas stikers]
-◉ Penjelasan: Untuk mendapatkan info stikers.
+➜ Perintah: <code>{{cmd}}packinfo</code> [balas stiker] ℹ️
+    Penjelasan: Untuk mendapatkan informasi tentang stiker.
 
-๏ Perintah: <code>{cmd}stikers</code> [nama]
-◉ Penjelasan: Untuk mencari stikers.
+➜ Perintah: <code>{{cmd}}stikers</code> [nama] 🔍
+    Penjelasan: Untuk mencari stiker berdasarkan nama.
 """
+

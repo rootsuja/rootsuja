@@ -11,11 +11,12 @@ from . import *
 
 __MODULE__ = "pinterest"
 __HELP__ = f"""
-✘ Bantuan Untuk Pinterest
+✘ Bantuan Untuk Pinterest 📌
 
-๏ Perintah: <code>{cmd}pinter</code> [link]
-◉ Penjelasan: Untuk mengunduh media dari pinterest.
+➜ Perintah: <code>{{cmd}}pinter</code> [link]
+    Penjelasan: Untuk mengunduh media dari Pinterest.
 """
+
 
 
 @bots.on_message(filters.me & filters.command("pinter", cmd))

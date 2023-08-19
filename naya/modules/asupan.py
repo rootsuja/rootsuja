@@ -200,23 +200,23 @@ async def pap(client, message):
 
 __MODULE__ = "asupan"
 __HELP__ = f"""
-✘ Bantuan Untuk Asupan
+🍔 Bantuan Untuk Asupan 🍔
 
-๏ Perintah: <code>{cmd}pap</code>
-◉ Penjelasan: Untuk mengirim pap secara random.
+➜ Perintah: <code>{{cmd}}pap</code>
+    Penjelasan: Untuk mengirim gambar pap secara random.
 
-๏ Perintah: <code>{cmd}asupan</code>
-◉ Penjelasan: Untuk mengirim asupan secara random.
+➜ Perintah: <code>{{cmd}}asupan</code>
+    Penjelasan: Untuk mengirim gambar asupan secara random.
 
-๏ Perintah: <code>{cmd}cowo or cewe</code>
-◉ Penjelasan: Untuk mengirim pap cowo atau cewe secara random.
+➜ Perintah: <code>{{cmd}}cowo</code> atau <code>{{cmd}}cewe</code>
+    Penjelasan: Untuk mengirim gambar pap cowo atau cewe secara random.
 
-๏ Perintah: <code>{cmd}ppcp or ppcp2</code>
-◉ Penjelasan: Untuk mengirim pp couple secara random.
+➜ Perintah: <code>{{cmd}}ppcp</code> atau <code>{{cmd}}ppcp2</code>
+    Penjelasan: Untuk mengirim gambar pp couple secara random.
 
-๏ Perintah: <code>{cmd}bokep</code>
-◉ Penjelasan: Untuk anda kalo pengen coli.
+➜ Perintah: <code>{{cmd}}bokep</code>
+    Penjelasan: Untuk Anda yang pengen coli.
 
-๏ Perintah: <code>{cmd}anime or anime2</code>
-◉ Penjelasan: Untuk Untuk mengirim gambar anime secara random.
+➜ Perintah: <code>{{cmd}}anime</code> atau <code>{{cmd}}anime2</code>
+    Penjelasan: Untuk mengirim gambar anime secara random.
 """

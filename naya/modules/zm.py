@@ -8,11 +8,12 @@ from . import *
 
 __MODULE__ = "zombies"
 __HELP__ = f"""
-✘ Bantuan Untuk Zombie
+✘ Bantuan Untuk Zombie 🧟
 
-๏ Perintah: <code>{cmd}zombies</code>
-◉ Penjelasan: Untuk mengeluarkan akun depresi digrup anda.
+➜ Perintah: <code>{{cmd}}zombies</code> ☠️
+    Penjelasan: Untuk mengeluarkan akun yang terlihat tidak aktif atau depresi dari grup Anda.
 """
+
 
 
 @bots.on_message(filters.command("zombies", cmd) & filters.me)

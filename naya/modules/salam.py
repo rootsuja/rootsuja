@@ -67,20 +67,20 @@ async def salamarab(client: Client, message: Message):
 
 __MODULE__ = "salam"
 __HELP__ = f"""
-✘ Bantuan Untuk Salam
+✘ Bantuan Untuk Salam 🌞
 
-๏ Perintah: <code>{cmd}p</code>
-◉ Penjelasan: Coba sendiri.
+➜ Perintah: <code>{{cmd}}p</code>
+    Penjelasan: Coba sendiri.
 
-๏ Perintah: <code>{cmd}pe</code>
-◉ Penjelasan: Coba sendiri.
+➜ Perintah: <code>{{cmd}}pe</code>
+    Penjelasan: Coba sendiri.
 
-๏ Perintah: <code>{cmd}l</code>
-◉ Penjelasan: Coba sendiri.
+➜ Perintah: <code>{{cmd}}l</code>
+    Penjelasan: Coba sendiri.
 
-๏ Perintah: <code>{cmd}wl</code>
-◉ Penjelasan: Coba sendiri.
+➜ Perintah: <code>{{cmd}}wl</code>
+    Penjelasan: Coba sendiri.
 
-๏ Perintah: <code>{cmd}as</code>
-◉ Penjelasan: Coba sendiri.
+➜ Perintah: <code>{{cmd}}as</code>
+    Penjelasan: Coba sendiri.
 """

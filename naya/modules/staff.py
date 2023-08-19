@@ -9,10 +9,10 @@ from . import *
 
 __MODULE__ = "staff"
 __HELP__ = f"""
-✘ Bantuan Untuk Staff
+✘ Bantuan Untuk Staff 👥
 
-๏ Perintah: <code>{cmd}staff</code>
-◉ Penjelasan: Untuk mengetahui daftar semua admin didalam grup.
+➜ Perintah: <code>{{cmd}}staff</code> 👮‍♂️
+    Penjelasan: Untuk mengetahui daftar semua admin dalam grup.
 """
 
 

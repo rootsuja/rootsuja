@@ -293,17 +293,17 @@ async def del_db(client, message):
 
 __MODULE__ = "heroku"
 __HELP__ = f"""
-✘ Bantuan Untuk Heroku
+✘ Bantuan Untuk Heroku ☁️
 
-๏ Perintah: <code>{cmd}setvar</code> [variable][value]
-◉ Penjelasan: Untuk mengatur variable di heroku atau vps.
+➜ Perintah: <code>{{cmd}}setvar</code> [variable] [value] ✏️
+    Penjelasan: Untuk mengatur variabel di Heroku atau VPS.
 
-๏ Perintah: <code>{cmd}delvar</code> [variable]
-◉ Penjelasan: Untuk menghapus variable di heroku atau vps.
+➜ Perintah: <code>{{cmd}}delvar</code> [variable] ❌
+    Penjelasan: Untuk menghapus variabel di Heroku atau VPS.
 
-๏ Perintah: <code>{cmd}getvar</code> [variable]
-◉ Penjelasan: Untuk mengambil variable di heroku atau vps.
+➜ Perintah: <code>{{cmd}}getvar</code> [variable] 🔍
+    Penjelasan: Untuk mengambil variabel di Heroku atau VPS.
 
-๏ Perintah: <code>{cmd}usage</code>
-◉ Penjelasan: Untuk mengecek dyno heroku only.
+➜ Perintah: <code>{{cmd}}usage</code> 📊
+    Penjelasan: Untuk mengecek penggunaan dyno (Hanya Heroku).
 """

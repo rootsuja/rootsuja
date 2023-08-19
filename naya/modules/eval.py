@@ -15,19 +15,19 @@ from pyrogram.types import *
 from . import *
 
 __MODULE__ = "devs"
-
 __HELP__ = f"""
-✘ Bantuan Untuk Devs
+👨‍💻 Bantuan Untuk Devs 👨‍💻
 
-๏ Perintah: <code>{cmd}eval</code>
-◉ Penjelasan: You know bruh.
+➜ Perintah: <code>{{cmd}}eval</code>
+    Penjelasan: Kamu tahu lah, bruh.
 
-๏ Perintah: <code>{cmd}trash</code>
-◉ Penjelasan: You know bruh.
+➜ Perintah: <code>{{cmd}}trash</code>
+    Penjelasan: Kamu tahu lah, bruh.
 
-๏ Perintah: <code>{cmd}sh</code>
-◉ Penjelasan: You know bruh.
+➜ Perintah: <code>{{cmd}}sh</code>
+    Penjelasan: Kamu tahu lah, bruh.
 """
+
 
 
 @bots.on_message(filters.command("sh", cmd) & filters.me)

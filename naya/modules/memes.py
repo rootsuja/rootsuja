@@ -9,11 +9,12 @@ from . import *
 
 __MODULE__ = "meme"
 __HELP__ = f"""
-✘ Bantuan Untuk Meme
+🤣 Bantuan Untuk Meme 🤣
 
-๏ Perintah: <code>{cmd}meme or memes</code>
-◉ Penjelasan: Membuat kata meme.
+➜ Perintah: <code>{{cmd}}meme</code> atau <code>{{cmd}}memes</code>
+    Penjelasan: Membuat kata meme.
 """
+
 
 
 @bots.on_message(filters.me & filters.command(["meme", "memes"], cmd))

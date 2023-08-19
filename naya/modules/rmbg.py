@@ -18,10 +18,10 @@ IMG_PATH = f"{DOWN_PATH}naya.jpg"
 
 __MODULE__ = "rmbg"
 __HELP__ = f"""
-✘ Bantuan Untuk RemoveBG
+✘ Bantuan Untuk RemoveBG 🌄
 
-๏ Perintah: <code>{cmd}rmbg</code> [reply to photo]
-◉ Penjelasan: Untuk menghapus background dari foto.
+➜ Perintah: <code>{{cmd}}rmbg</code> [reply to photo] 🔲
+    Penjelasan: Untuk menghapus background dari foto.
 """
 
 

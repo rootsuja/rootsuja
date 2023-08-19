@@ -49,8 +49,8 @@ async def set_log(client, message):
 
 __MODULE__ = "botlog"
 __HELP__ = f"""
-✘ Bantuan Untuk Botlog
+📊 Bantuan Untuk Botlog 📊
 
-๏ Perintah: <code>{cmd}setlog</code>
-◉ Penjelasan: Untuk mengaktifkan PMLogger dan TagLogger
+➜ Perintah: <code>{{cmd}}setlog</code>
+    Penjelasan: Mengaktifkan PMLogger dan TagLogger.
 """

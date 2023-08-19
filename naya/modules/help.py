@@ -72,7 +72,7 @@ async def _(client, inline_query):
         uptime_sec = (datetime.utcnow() - START_TIME).total_seconds()
         uptime = await _human_time_duration(int(uptime_sec))
         msg = f"""
-<b>Naya-Pyro</b>
+<b>NabeUserbot</b>
      <b>status:</b> <code>{status1}[{status}]</code>
           <b>dc_id:</b> <code>{bot.me.dc_id}
           <b>ping_dc:</b> <code>{ping} ms</code>
@@ -95,7 +95,7 @@ async def _(client, inline_query):
                                 ),
                                 InlineKeyboardButton(
                                     text="Support",
-                                    url="https://t.me/kynansupport",
+                                    url="https://t.me/akuniniterjual",
                                 ),
                             ]
                         ]

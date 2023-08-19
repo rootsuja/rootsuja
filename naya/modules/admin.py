@@ -140,14 +140,14 @@ async def get_list_bots(client: Client, message: Message):
 
 __MODULE__ = "chats"
 __HELP__ = f"""
-✘ Bantuan Untuk Chat
+📌 Bantuan Untuk Chat
 
-๏ Perintah: <code>{cmd}admins</code>
-◉ Penjelasan: Untuk melihat daftar admin.
+🔸 Perintah: <code>{{cmd}}admins</code>
+    ➡️ Penjelasan: Untuk melihat daftar admin.
 
-๏ Perintah: <code>{cmd}botlist</code>
-◉ Penjelasan: Untuk melihat daftar bot.
+🔸 Perintah: <code>{{cmd}}botlist</code>
+    ➡️ Penjelasan: Untuk melihat daftar bot.
 
-๏ Perintah: <code>{cmd}report</code> [balas pesan]
-◉ Penjelasan: Untuk melaporkan pesan ke admin.
+🔸 Perintah: <code>{{cmd}}report</code> [balas pesan]
+    ➡️ Penjelasan: Untuk melaporkan pesan ke admin.
 """

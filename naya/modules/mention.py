@@ -59,11 +59,11 @@ async def cancel_spam(client, message):
 
 __MODULE__ = "mention"
 __HELP__ = f"""
-✘ Bantuan Untuk Mention
+📢 Bantuan Untuk Mention 📢
 
-๏ Perintah: <code>{cmd}all</code> [balas pesan]
-◉ Penjelasan: Untuk menandai anggota dengan pesan.
+➜ Perintah: <code>{{cmd}}all</code> [balas pesan]
+    Penjelasan: Menandai semua anggota dengan pesan.
 
-๏ Perintah: <code>{cmd}batal</code>
-◉ Penjelasan: Untuk membatalkan mention all.
+➜ Perintah: <code>{{cmd}}batal</code>
+    Penjelasan: Membatalkan mention all.
 """

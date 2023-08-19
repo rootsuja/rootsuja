@@ -324,23 +324,23 @@ async def leave_vc_test(client, message):
 
 __MODULE__ = "music"
 __HELP__ = f"""
-✘ Bantuan Untuk Music
+🎵 Bantuan Untuk Music 🎵
 
-๏ Perintah: <code>{cmd}skip</code>
-◉ Penjelasan: Untuk melewati trek.
+➜ Perintah: <code>{{cmd}}skip</code>
+    Penjelasan: Melewati trek saat ini.
 
-๏ Perintah: <code>{cmd}pause</code>
-◉ Penjelasan: Untuk menjeda lagu.
+➜ Perintah: <code>{{cmd}}pause</code>
+    Penjelasan: Menjeda pemutaran lagu.
 
-๏ Perintah: <code>{cmd}resume</code>
-◉ Penjelasan: Untuk melanjutkan lagu.
+➜ Perintah: <code>{{cmd}}resume</code>
+    Penjelasan: Melanjutkan pemutaran lagu yang dijeda.
 
-๏ Perintah: <code>{cmd}play</code> [judul lagu/balas audio/link youtube]
-◉ Penjelasan: Untuk memutar lagu.
+➜ Perintah: <code>{{cmd}}play</code> [judul lagu/balas audio/link YouTube]
+    Penjelasan: Memutar lagu sesuai permintaan.
 
-๏ Perintah: <code>{cmd}end</code>
-◉ Penjelasan: Untuk memberhentikan pemutaran.
+➜ Perintah: <code>{{cmd}}end</code>
+    Penjelasan: Menghentikan pemutaran lagu.
 
-๏ Perintah: <code>{cmd}playlist</code>
-◉ Penjelasan: Untuk melihat daftar putar.
+➜ Perintah: <code>{{cmd}}playlist</code>
+    Penjelasan: Melihat daftar putar saat ini.
 """

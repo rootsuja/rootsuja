@@ -284,11 +284,11 @@ async def update_restart(client, message):
 
 __MODULE__ = "updater"
 __HELP__ = f"""
-✘ Bantuan Untuk Updater
+✘ Bantuan Untuk Updater 🔄
 
-๏ Perintah: <code>{cmd}update gas</code>
-◉ Penjelasan: Untuk melakukan update heroku deploy Naya-Pyro.
+➜ Perintah: <code>{{cmd}}update gas</code> ⛽
+    Penjelasan: Untuk melakukan pembaruan pada deploy Heroku Naya-Pyro.
 
-๏ Perintah: <code>{cmd}goupdate</code>
-◉ Penjelasan: Untuk melakukan update vps deploy Naya-Pyro.
+➜ Perintah: <code>{{cmd}}goupdate</code> 📥
+    Penjelasan: Untuk melakukan pembaruan pada deploy VPS Naya-Pyro.
 """

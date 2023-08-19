@@ -9,19 +9,20 @@ from . import *
 
 __MODULE__ = "afk"
 __HELP__ = f"""
-✘ Bantuan Untuk Afk
+🌙 Bantuan Untuk AFK 🌙
 
-๏ Perintah: <code>{cmd}afk</code> [alasan]
-◉ Penjelasan: Untuk mengaktifkan mode afk.
+➜ Perintah: <code>{{cmd}}afk</code> [alasan]
+    Penjelasan: Untuk mengaktifkan mode AFK.
 """
 
 afk_sanity_check: dict = {}
 afkstr = """
-#AFK Aktif\n Alasan {}
+🔕 Mode AFK Aktif\n   Alasan: {}
 """
 onlinestr = """
-#AFK Tidak Aktif\nAlasan {}
+🔔 Mode AFK Tidak Aktif\n   Alasan: {}
 """
+
 
 
 async def is_afk_(f, client, message):

@@ -12,14 +12,15 @@ from . import *
 
 __MODULE__ = "translate"
 __HELP__ = f"""
-✘ Bantuan Untuk Translate
+✘ Bantuan Untuk Translate 🌐
 
-๏ Perintah: <code>{cmd}tr</code> [lang_code - reply/text]
-◉ Penjelasan: Untuk menerjemahkan text dengan kode negara yang diinginkan.
+➜ Perintah: <code>{{cmd}}tr</code> [lang_code - reply/text] 📝
+    Penjelasan: Untuk menerjemahkan teks dengan kode bahasa yang diinginkan.
 
-๏ Perintah: <code>{cmd}tts</code> [lang_code - reply/text]
-◉ Penjelasan: Untuk menerjemahkan text dengan kode negara yang diinginkan serta merubahnya menjadi pesan suara.
+➜ Perintah: <code>{{cmd}}tts</code> [lang_code - reply/text] 🔊
+    Penjelasan: Untuk menerjemahkan teks dengan kode bahasa yang diinginkan serta mengubahnya menjadi pesan suara.
 """
+
 
 
 @bots.on_message(filters.me & filters.command("tts", cmd))

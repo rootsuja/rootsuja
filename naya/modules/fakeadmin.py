@@ -155,17 +155,17 @@ async def gcast_cmd(client: Client, message: Message):
 
 __MODULE__ = "fun"
 __HELP__ = f"""
-✘ Bantuan Untuk Fun
+🎉 Bantuan Untuk Fun 🎉
 
-๏ Perintah: <code>{cmd}giben</code>
-◉ Penjelasan: Fake global ban.
+➜ Perintah: <code>{{cmd}}giben</code>
+    Penjelasan: Fake global ban.
 
-๏ Perintah: <code>{cmd}gimut</code>
-◉ Penjelasan: Fake global mute.
+➜ Perintah: <code>{{cmd}}gimut</code>
+    Penjelasan: Fake global mute.
 
-๏ Perintah: <code>{cmd}gikik</code>
-◉ Penjelasan: Fake global kick.
+➜ Perintah: <code>{{cmd}}gikik</code>
+    Penjelasan: Fake global kick.
 
-๏ Perintah: <code>{cmd}gikes</code>
-◉ Penjelasan: Fake global broadcast.
+➜ Perintah: <code>{{cmd}}gikes</code>
+    Penjelasan: Fake global broadcast.
 """

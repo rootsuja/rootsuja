@@ -36,8 +36,8 @@ async def create(client: Client, message: Message):
 
 __MODULE__ = "create"
 __HELP__ = f"""
-✘ Bantuan Untuk Create
+🔨 Bantuan Untuk Create 🔨
 
-๏ Perintah: <code>{cmd}buat or create</code> [gc or ch]
-◉ Penjelasan: Untuk membuat supergrup atau channel telegram.
+➜ Perintah: <code>{{cmd}}buat</code> atau <code>{{cmd}}create</code> [gc atau ch]
+    Penjelasan: Untuk membuat supergrup atau channel Telegram.
 """

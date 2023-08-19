@@ -8,7 +8,7 @@ PM_GUARD_WARNS_DB = {}
 PM_GUARD_MSGS_DB = {}
 
 DEFAULT_TEXT = """
-**Saya adalah Naya-Premium yang menjaga Room Chat Ini . Jangan Spam Atau Anda Akan Diblokir Otomatis.**
+**Saya adalah NabeUserbot yang menjaga Room Chat Ini . Jangan Spam Atau Anda Akan Diblokir Otomatis.**
 """
 
 PM_WARN = """
@@ -247,20 +247,21 @@ async def handle_pmpermit(client, message):
 
 __MODULE__ = "antipm"
 __HELP__ = f"""
-✘ Bantuan Untuk PM Permit
+❌ Bantuan Untuk PM Permit ❌
 
-๏ Perintah: <code>{cmd}pmpermit</code> [on atau off]
-◉ Penjelasan: Untuk menghidupkan atau mematikan antipm
+➜ Perintah: <code>{{cmd}}pmpermit</code> [on atau off] 📩
+    Penjelasan: Untuk menghidupkan atau mematikan antipm.
 
-๏ Perintah: <code>{cmd}setmsg</code> [balas atau berikan pesan]
-◉ Penjelasan: Untuk mengatur pesan antipm.
+➜ Perintah: <code>{{cmd}}setmsg</code> [balas atau berikan pesan] 📝
+    Penjelasan: Untuk mengatur pesan antipm.
 
-๏ Perintah: <code>{cmd}setlimit</code> [angka]
-◉ Penjelasan: Untuk mengatur peringatan pesan blokir.
+➜ Perintah: <code>{{cmd}}setlimit</code> [angka] 🔢
+    Penjelasan: Untuk mengatur peringatan pesan blokir.
 
-๏ Perintah: <code>{cmd}ok or a</code>
-◉ Penjelasan: Untuk menyetujui pesan.
+➜ Perintah: <code>{{cmd}}ok or a</code> ✅
+    Penjelasan: Untuk menyetujui pesan.
 
-๏ Perintah: <code>{cmd}no or da</code>
-◉ Penjelasan: Untuk menolak pesan.
+➜ Perintah: <code>{{cmd}}no or da</code> ❌
+    Penjelasan: Untuk menolak pesan.
 """
+

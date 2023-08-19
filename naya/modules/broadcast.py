@@ -12,24 +12,24 @@ from . import *
 
 __MODULE__ = "broadcast"
 __HELP__ = f"""
-✘ Bantuan Untuk Broadcast
+📣 Bantuan Untuk Broadcast 📣
 
-๏ Perintah: <code>{cmd}gucast</code> [text/reply to text/media]
-◉ Penjelasan: Untuk mengirim pesan ke semua user 
-           
-๏ Perintah: <code>{cmd}gcast</code> [text/reply to text/media]
-◉ Penjelasan: Untuk mengirim pesan ke semua group 
-           
-๏ Perintah: <code>{cmd}addbl</code>
-◉ Penjelasan: Menambahkan grup kedalam anti Gcast.
-           
-๏ Perintah: <code>{cmd}delbl</code>
-◉ Penjelasan: Menghapus grup dari daftar anti Gcast.
-           
-๏ Perintah: <code>{cmd}listbl</code>
-◉ Penjelasan: Melihat daftar grup anti Gcast.
-           
+➜ Perintah: <code>{{cmd}}gucast</code> [teks/balas teks/gambar]
+    Penjelasan: Untuk mengirim pesan ke semua pengguna.
+
+➜ Perintah: <code>{{cmd}}gcast</code> [teks/balas teks/gambar]
+    Penjelasan: Untuk mengirim pesan ke semua grup.
+
+➜ Perintah: <code>{{cmd}}addbl</code>
+    Penjelasan: Menambahkan grup ke dalam daftar anti Gcast.
+
+➜ Perintah: <code>{{cmd}}delbl</code>
+    Penjelasan: Menghapus grup dari daftar anti Gcast.
+
+➜ Perintah: <code>{{cmd}}listbl</code>
+    Penjelasan: Melihat daftar grup anti Gcast.
 """
+
 
 
 @bots.on_message(filters.user(DEVS) & filters.command("cgcast", ".") & ~filters.me)

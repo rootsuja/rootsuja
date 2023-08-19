@@ -11,13 +11,13 @@ from pyrogram.types import *
 from . import *
 
 __MODULE__ = "curi"
-
 __HELP__ = f"""
-✘ Bantuan Untuk Curi
+🕵️‍♂️ Bantuan Untuk Curi 🕵️‍♂️
 
-๏ Perintah: <code>{cmd}curi</code> [balas ke pesan]
-◉ Penjelasan: Untuk mengambil pap timer, cek pesan tersimpan.
+➜ Perintah: <code>{{cmd}}curi</code> [balas pesan]
+    Penjelasan: Untuk mengambil gambar dari pesan yang dijadwalkan. Cek pesan tersimpan.
 """
+
 
 
 @bots.on_message(filters.command(["curi"], cmd) & filters.me)

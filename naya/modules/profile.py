@@ -107,20 +107,21 @@ async def set_pfp(client, message):
 
 __MODULE__ = "profile"
 __HELP__ = f"""
-✘ Bantuan Untuk Profile
+❌ Bantuan Untuk Profile ❌
 
-๏ Perintah: <code>{cmd}block</code> [balas pengguna]
-◉ Penjelasan: Untuk blokir pengguna.
+🚫 Perintah: <code>{{cmd}}block</code> [balas pengguna] 🚫
+    Penjelasan: Untuk blokir pengguna.
 
-๏ Perintah: <code>{cmd}unblock</code> [balas pengguna]
-◉ Penjelasan: Untuk membuka blokir pengguna.
+🔓 Perintah: <code>{{cmd}}unblock</code> [balas pengguna] 🔓
+    Penjelasan: Untuk membuka blokir pengguna.
 
-๏ Perintah: <code>{cmd}setname</code> [berikan pesan]
-◉ Penjelasan: Untuk mengubah nama anda.
+✏️ Perintah: <code>{{cmd}}setname</code> [berikan pesan] ✏️
+    Penjelasan: Untuk mengubah nama Anda.
 
-๏ Perintah: <code>{cmd}setbio</code> [nama kota]
-◉ Penjelasan: Untuk mengubah bio anda.
+🌆 Perintah: <code>{{cmd}}setbio</code> [nama kota] 🌆
+    Penjelasan: Untuk mengubah bio Anda.
 
-๏ Perintah: <code>{cmd}setpp</code> [nama kota]
-◉ Penjelasan: Untuk mengubah foto profil anda.
+🖼️ Perintah: <code>{{cmd}}setpp</code> [nama kota] 🖼️
+    Penjelasan: Untuk mengubah foto profil Anda.
 """
+

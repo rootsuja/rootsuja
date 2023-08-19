@@ -11,11 +11,12 @@ from . import *
 
 __MODULE__ = "sosmed"
 __HELP__ = f"""
-✘ Bantuan Untuk Sosmed
+✘ Bantuan Untuk Sosmed 🌐
 
-๏ Perintah: <code>{cmd}sosmed</code> [link]
-◉ Penjelasan: Untuk Mendownload Media Dari Facebook/Tiktok/Instagram/Twitter/YouTube.
+➜ Perintah: <code>{{cmd}}sosmed</code> [link] 📥
+    Penjelasan: Untuk Mendownload Media Dari Facebook/Tiktok/Instagram/Twitter/YouTube.
 """
+
 
 
 @bots.on_message(filters.me & filters.command("sosmed", cmd))

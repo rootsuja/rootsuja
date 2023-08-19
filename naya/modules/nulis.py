@@ -55,8 +55,8 @@ async def handwrite(client, message):
 
 __MODULE__ = "nulis"
 __HELP__ = f"""
-✘ Bantuan Untuk Nulis
+📝 Bantuan Untuk Nulis 📝
 
-๏ Perintah: <code>{cmd}nulis</code> [balas pesan atau berikan]
-◉ Penjelasan: Untuk anda yang malas nulis.
+➜ Perintah: <code>{{cmd}}nulis</code> [balas pesan atau berikan]
+    Penjelasan: Untuk Anda yang malas menulis.
 """

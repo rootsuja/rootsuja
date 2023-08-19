@@ -30,8 +30,8 @@ async def _(client, message):
 
 __MODULE__ = "limit"
 __HELP__ = f"""
-✘ Bantuan Untuk Limited
+⚡ Bantuan Untuk Limited ⚡
 
-๏ Perintah: <code>{cmd}limit</code>
-◉ Penjelasan: Untuk mengecek akun anda terbatas atau tidak.
+➜ Perintah: <code>{{cmd}}limit</code>
+    Penjelasan: Untuk mengecek apakah akun Anda terbatas atau tidak.
 """

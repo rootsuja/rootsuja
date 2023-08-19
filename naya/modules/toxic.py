@@ -338,29 +338,29 @@ async def toxicvirtual(client: Client, message: Message):
 
 __MODULE__ = "toxic"
 __HELP__ = f"""
-✘ Bantuan Untuk Toxic
+✘ Bantuan Untuk Toxic 🤬
 
-๏ Perintah: <code>{cmd}jamet or pp</code>
-◉ Penjelasan: Coba sendiri.
+➜ Perintah: <code>{{cmd}}jamet or pp</code>
+    Penjelasan: Coba sendiri.
 
-๏ Perintah: <code>{cmd}dp or so</code>
-◉ Penjelasan: Coba sendiri.
+➜ Perintah: <code>{{cmd}}dp or so</code>
+    Penjelasan: Coba sendiri.
 
-๏ Perintah: <code>{cmd}nb or skb</code>
-◉ Penjelasan: Coba sendiri.
+➜ Perintah: <code>{{cmd}}nb or skb</code>
+    Penjelasan: Coba sendiri.
 
-๏ Perintah: <code>{cmd}met or war</code>
-◉ Penjelasan: Coba sendiri.
+➜ Perintah: <code>{{cmd}}met or war</code>
+    Penjelasan: Coba sendiri.
 
-๏ Perintah: <code>{cmd}wartai or kismin</code>
-◉ Penjelasan: Coba sendiri.
+➜ Perintah: <code>{{cmd}}wartai or kismin</code>
+    Penjelasan: Coba sendiri.
 
-๏ Perintah: <code>{cmd}ded or sokab</code>
-◉ Penjelasan: Coba sendiri.
+➜ Perintah: <code>{{cmd}}ded or sokab</code>
+    Penjelasan: Coba sendiri.
 
-๏ Perintah: <code>{cmd}gembel or cuih</code>
-◉ Penjelasan: Coba sendiri.
+➜ Perintah: <code>{{cmd}}gembel or cuih</code>
+    Penjelasan: Coba sendiri.
 
-๏ Perintah: <code>{cmd}dih or gc</code>
-◉ Penjelasan: Coba sendiri.
+➜ Perintah: <code>{{cmd}}dih or gc</code>
+    Penjelasan: Coba sendiri.
 """

@@ -12,10 +12,10 @@ from . import *
 
 __MODULE__ = "sangmata"
 __HELP__ = f"""
-✘ Bantuan Untuk Sangmata
+✘ Bantuan Untuk Sangmata 👁️
 
-๏ Perintah: <code>{cmd}sg</code> [user_id/reply user]
-◉ Penjelasan: Untuk memeriksa histori nama/username.
+➜ Perintah: <code>{{cmd}}sg</code> [user_id/reply user] 👤
+    Penjelasan: Untuk memeriksa histori nama/username.
 """
 
 

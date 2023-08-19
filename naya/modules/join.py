@@ -81,20 +81,20 @@ async def invite_link(client, message):
 
 __MODULE__ = "group"
 __HELP__ = f"""
-✘ Bantuan Untuk Grup
+👥 Bantuan Untuk Grup 👥
 
-๏ Perintah: <code>{cmd}join</code> [username]
-◉ Penjelasan: Untuk bergabung ke grup tersebut.
+➜ Perintah: <code>{{cmd}}join</code> [username]
+    Penjelasan: Bergabung dengan grup tersebut.
 
-๏ Perintah: <code>{cmd}kickme</code>
-◉ Penjelasan: Untuk keluar dari grup tersebut.
+➜ Perintah: <code>{{cmd}}kickme</code>
+    Penjelasan: Keluar dari grup tersebut.
 
-๏ Perintah: <code>{cmd}leaveallgc</code>
-◉ Penjelasan: Untuk keluar dari semua grup.
+➜ Perintah: <code>{{cmd}}leaveallgc</code>
+    Penjelasan: Keluar dari semua grup.
 
-๏ Perintah: <code>{cmd}leaveallch</code> [username]
-◉ Penjelasan: Untuk keluar dari semua channel.
+➜ Perintah: <code>{{cmd}}leaveallch</code> [username]
+    Penjelasan: Keluar dari semua channel.
 
-๏ Perintah: <code>{cmd}getlink</code>
-◉ Penjelasan: Untuk mengambil link dari grup.
+➜ Perintah: <code>{{cmd}}getlink</code>
+    Penjelasan: Mengambil tautan grup.
 """

@@ -145,17 +145,17 @@ async def spam_stick(client: Client, message: Message):
 
 __MODULE__ = "spam"
 __HELP__ = f"""
-✘ Bantuan Untuk Spam
+✘ Bantuan Untuk Spam 📢
 
-๏ Perintah: <code>{cmd}dspam</code> [jumlah] [waktu delay] [balas pesan]
-◉ Penjelasan: Untuk melakukan delay spam.
+➜ Perintah: <code>{{cmd}}dspam</code> [jumlah] [waktu delay] [balas pesan] 🔄
+    Penjelasan: Untuk melakukan spam dengan jeda waktu.
 
-๏ Perintah: <code>{cmd}spam</code> [jumlah] [kata]
-◉ Penjelasan: Untuk melakukan spam.
+➜ Perintah: <code>{{cmd}}spam</code> [jumlah] [kata] 🗣️
+    Penjelasan: Untuk melakukan spam pesan teks.
 
-๏ Perintah: <code>{cmd}bspam</code> [jumlah] [kata]
-◉ Penjelasan: Untuk melakukan bigspam.
+➜ Perintah: <code>{{cmd}}bspam</code> [jumlah] [kata] 🗣️
+    Penjelasan: Untuk melakukan bigspam pesan teks.
 
-๏ Perintah: <code>{cmd}sspam</code>
-◉ Penjelasan: Untuk melakukan spam stiker.
+➜ Perintah: <code>{{cmd}}sspam</code> 🖼️
+    Penjelasan: Untuk melakukan spam stiker.
 """

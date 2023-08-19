@@ -10,19 +10,20 @@ from . import *
 
 __MODULE__ = "culik"
 __HELP__ = f"""
-✘ Bantuan Untuk Culik
+🚀 Bantuan Untuk Culik 🚀
 
-๏ Perintah: <code>{cmd}invite</code> [username]
-◉ Penjelasan: Untuk Mengundang Anggota ke grup Anda.
+➜ Perintah: <code>{{cmd}}invite</code> [username]
+    Penjelasan: Untuk mengundang anggota ke grup Anda.
 
-๏ Perintah: <code>{cmd}inviteall</code> [username_group - colldown=detik per invite]
-◉ Penjelasan: Untuk Mengundang Anggota dari obrolan grup lain ke obrolan grup Anda.
+➜ Perintah: <code>{{cmd}}inviteall</code> [username_grup - cooldown=detik_per_invite]
+    Penjelasan: Untuk mengundang anggota dari obrolan grup lain ke grup Anda.
 
-๏ Perintah: <code>{cmd}cancel</code>
-◉ Penjelasan: Untuk membatalkan perintah inviteall.
+➜ Perintah: <code>{{cmd}}cancel</code>
+    Penjelasan: Untuk membatalkan perintah inviteall.
 
-◉ Note: Untuk ID5 & ID6 Dilarang menggunakan fitur inviteall karna kemungkinan akan deak.
+◉ Catatan: Untuk ID5 & ID6, dilarang menggunakan fitur inviteall karena kemungkinan akan dideak.
 """
+
 
 
 @bots.on_message(filters.me & filters.command("invite", cmd))

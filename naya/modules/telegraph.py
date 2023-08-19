@@ -10,11 +10,12 @@ from . import *
 
 __MODULE__ = "telegraph"
 __HELP__ = f"""
-✘ Bantuan Untuk Telegraph
+✘ Bantuan Untuk Telegraph 📰
 
-๏ Perintah: <code>{cmd}tg</code> [reply media/text]
-◉ Penjelasan: Untuk mengapload media/text ke telegra.ph.
+➜ Perintah: <code>{{cmd}}tg</code> [reply media/text] 📄
+    Penjelasan: Untuk mengunggah media/teks ke telegra.ph.
 """
+
 
 telegraph = Telegraph()
 

@@ -87,11 +87,11 @@ async def _(client, message):
 
 __MODULE__ = "global"
 __HELP__ = f"""
-✘ Bantuan Untuk Global
+🌐 Bantuan Untuk Global 🌐
 
-๏ Perintah: <code>{cmd}gban</code> [balas pesan atau berikan username]
-◉ Penjelasan: Untuk melakukan global blokir pengguna.
+➜ Perintah: <code>{{cmd}}gban</code> [balas pesan atau berikan username]
+    Penjelasan: Untuk melakukan blokir global terhadap pengguna.
 
-๏ Perintah: <code>{cmd}ungban</code> [balas pesan atau berikan username]
-◉ Penjelasan: Untuk melepas global blokir pengguna.
+➜ Perintah: <code>{{cmd}}ungban</code> [balas pesan atau berikan username]
+    Penjelasan: Untuk melepas blokir global terhadap pengguna.
 """

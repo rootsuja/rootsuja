@@ -65,11 +65,12 @@ async def img(client, message):
 
 __MODULE__ = "openai"
 __HELP__ = f"""
-✘ Bantuan Untuk OpenAI
+🤖 Bantuan Untuk OpenAI 🤖
 
-๏ Perintah: <code>{cmd}ai</code> [query]
-◉ Penjelasan: Untuk mengajukan pertanyaan ke AI
+➜ Perintah: <code>{{cmd}}ai</code> [query]
+    Penjelasan: Untuk mengajukan pertanyaan ke AI.
 
-๏ Perintah: <code>{cmd}img</code> [query]
-◉ Penjelasan: Untuk mencari gambar ke AI
+➜ Perintah: <code>{{cmd}}img</code> [query]
+    Penjelasan: Untuk mencari gambar menggunakan AI.
 """
+

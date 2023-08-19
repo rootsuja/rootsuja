@@ -13,10 +13,10 @@ from . import *
 
 __MODULE__ = "webshot"
 __HELP__ = f"""
-✘ Bantuan Untuk Webshot
+✘ Bantuan Untuk Webshot 📸
 
-๏ Perintah: <code>{cmd}ss or webss</code> [link]
-◉ Penjelasan: Untuk mendapatkan screenshot dari link tersebut.
+➜ Perintah: <code>{{cmd}}ss or webss</code> [link] 🌐
+    Penjelasan: Untuk mendapatkan tangkapan layar dari tautan tersebut.
 """
 
 

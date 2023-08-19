@@ -274,23 +274,23 @@ async def demote(client: Client, message: Message):
 
 __MODULE__ = "admin"
 __HELP__ = f"""
-✘ Bantuan Untuk Admin
+🛠️ Bantuan Untuk Admin 🛠️
 
-๏ Perintah: <code>{cmd}ban, dban or unban</code> [balas pesan atau berikan username]
-◉ Penjelasan: Untuk blokir, hapus pesan dengan blokir serta buka blokir
+➜ Perintah: <code>{{cmd}}ban, dban atau unban</code> [balas pesan atau berikan username]
+    Penjelasan: Untuk blokir, hapus pesan dengan blokir serta buka blokir.
 
-๏ Perintah: <code>{cmd}pin or unpin</code> [balas pesan]
-◉ Penjelasan: Untuk menyematkan dan melepas sematan pesan grup.
+➜ Perintah: <code>{{cmd}}pin atau unpin</code> [balas pesan]
+    Penjelasan: Untuk menyematkan dan melepas sematan pesan grup.
 
-๏ Perintah: <code>{cmd}setgpic</code> [balas foto]
-◉ Penjelasan: Untuk mengubah foto grup.
+➜ Perintah: <code>{{cmd}}setgpic</code> [balas foto]
+    Penjelasan: Untuk mengubah foto grup.
 
-๏ Perintah: <code>{cmd}kick or dkick</code> [balas pesan atau berikan username]
-◉ Penjelasan: Untuk menendang atau hapus pesan dengan menendang pengguna.
+➜ Perintah: <code>{{cmd}}kick atau dkick</code> [balas pesan atau berikan username]
+    Penjelasan: Untuk menendang atau hapus pesan dengan menendang pengguna.
 
-๏ Perintah: <code>{cmd}promote or fullpromote</code> [balas pesan atau berikan username]
-◉ Penjelasan: Untuk menjadikan admin digrup anda.
+➜ Perintah: <code>{{cmd}}promote atau fullpromote</code> [balas pesan atau berikan username]
+    Penjelasan: Untuk menjadikan admin di grup Anda.
 
-๏ Perintah: <code>{cmd}mute or unmute</code> [balas pesan atau berikan username]
-◉ Penjelasan: Untuk membisukan atau membuka bisu pengguna digrup.
+➜ Perintah: <code>{{cmd}}mute atau unmute</code> [balas pesan atau berikan username]
+    Penjelasan: Untuk membisukan atau membuka bisu pengguna di grup.
 """

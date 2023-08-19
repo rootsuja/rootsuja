@@ -18,20 +18,21 @@ from . import *
 
 __MODULE__ = "vctools"
 __HELP__ = f"""
-✘ Bantuan Untuk Voice Chat
+✘ Bantuan Untuk Voice Chat 🎙️
 
-๏ Perintah: <code>{cmd}startvc</code>
-◉ Penjelasan: Untuk memulai voice chat grup.
+➜ Perintah: <code>{{cmd}}startvc</code> ▶️
+    Penjelasan: Untuk memulai voice chat di grup.
 
-๏ Perintah: <code>{cmd}stopvc</code>
-◉ Penjelasan: Untuk mengakhiri voice chat grup.
-           
-๏ Perintah: <code>{cmd}joinvc</code>
-◉ Penjelasan: Untuk bergabung voice chat grup.
+➜ Perintah: <code>{{cmd}}stopvc</code> ⏹️
+    Penjelasan: Untuk mengakhiri voice chat di grup.
 
-๏ Perintah: <code>{cmd}leavevc</code>
-◉ Penjelasan: Untuk meninggalkan voice chat grup.
+➜ Perintah: <code>{{cmd}}joinvc</code> 🛂
+    Penjelasan: Untuk bergabung ke voice chat di grup.
+
+➜ Perintah: <code>{{cmd}}leavevc</code> 🚪
+    Penjelasan: Untuk meninggalkan voice chat di grup.
 """
+
 
 
 async def get_group_call(

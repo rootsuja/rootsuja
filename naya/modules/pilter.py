@@ -11,15 +11,16 @@ __MODULE__ = "filter"
 __HELP__ = f"""
 ✘ Bantuan Untuk Filter
 
-๏ Perintah: <code>{cmd}addfil</code> [nama filter] [balas ke pesan]
-◉ Penjelasan: Untuk mengatur filter grup.
+➜ Perintah: <code>{{cmd}}addfil</code> [nama filter] [balas ke pesan]
+    Penjelasan: Untuk mengatur filter grup.
 
-๏ Perintah: <code>{cmd}delfil</code> [nama filter]
-◉ Penjelasan: Untuk menghapus filter grup.
+➜ Perintah: <code>{{cmd}}delfil</code> [nama filter]
+    Penjelasan: Untuk menghapus filter grup.
 
-๏ Perintah: <code>{cmd}filters</code>
-◉ Penjelasan: Untuk melihat filter grup.
+➜ Perintah: <code>{{cmd}}filters</code>
+    Penjelasan: Untuk melihat filter grup.
 """
+
 
 
 @bots.on_message(filters.me & filters.command("addfil", cmd))

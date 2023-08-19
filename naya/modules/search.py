@@ -15,14 +15,15 @@ from . import *
 
 __MODULE__ = "search"
 __HELP__ = f"""
-✘ Bantuan Untuk Search
+✘ Bantuan Untuk Search 🔍
 
-๏ Perintah: <code>{cmd}pic</code> [query]
-◉ Penjelasan: Untuk gambar secara limit 5.
+➜ Perintah: <code>{{cmd}}pic</code> [query] 📷
+    Penjelasan: Untuk mencari gambar dengan batasan 5 hasil.
 
-๏ Perintah: <code>{cmd}gif</code> [query]
-◉ Penjelasan: Untuk gif.
+➜ Perintah: <code>{{cmd}}gif</code> [query] 🎥
+    Penjelasan: Untuk mencari GIF.
 """
+
 
 
 @bots.on_message(filters.command(["pic"], cmd) & filters.me)

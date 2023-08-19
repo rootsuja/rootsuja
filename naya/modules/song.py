@@ -21,14 +21,15 @@ from . import *
 
 __MODULE__ = "youtube"
 __HELP__ = f"""
-✘ Bantuan Untuk Youtube
+✘ Bantuan Untuk Youtube 🎬
 
-๏ Perintah: <code>{cmd}song</code> [judul]
-◉ Penjelasan: Untuk mendownload lagu dari youtube.
+➜ Perintah: <code>{{cmd}}song</code> [judul] 🎵
+    Penjelasan: Untuk mendownload lagu dari YouTube.
 
-๏ Perintah: <code>{cmd}video</code> [judul]
-◉ Penjelasan: Untuk mendownload video dari youtube.
+➜ Perintah: <code>{{cmd}}video</code> [judul] 📹
+    Penjelasan: Untuk mendownload video dari YouTube.
 """
+
 
 
 def run_sync(func, *args, **kwargs):
